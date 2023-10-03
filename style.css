@@ -245,5 +245,22 @@ input::placeholder{
 @media(max-width:750px){
     .video-section{padding: 24px 16px;
     }
-    .carousel-content{text-align:start;}
+   h2.display-4{
+    font-size: 30px;
+   }
+    .carousel-content-title::after{
+       
+        margin:0 auto;
+    }
+    .feature-heading{font-size: 24px;}
+    .description-amount{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .amount{
+        font-size: 20px;
+    }
+    .agent-section{
+        margin-top: 0px;
+    }
 }
