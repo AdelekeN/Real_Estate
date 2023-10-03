@@ -245,5 +245,5 @@ input::placeholder{
 @media(max-width:750px){
     .video-section{padding: 24px 16px;
     }
-    
+    .carousel-content{text-align:start;}
 }
