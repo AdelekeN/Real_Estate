@@ -54,11 +54,16 @@ p{
 }
 
 .card .icon{
-    width:30px;
-    height: 30px;
+    width:35px;
+    height: 35px;
     border-radius:50%;
     background-color:var(--color-primary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
 }
+
 .card .card-action{
     position:absolute;
     top:-18px;
@@ -121,11 +126,22 @@ position: relative;
 }
 
 .icons{
-    width:30px;
-    height: 30px;
+    width: 45px;
+    height: 40px;
     border-radius:20%;
     background-color:var(--color-primary-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
 }
+.description-text{
+    background-color:var(--color-primary-light);
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: var(--color-primary);
+}
+
 .hover-container{
     position:absolute;
     width:100%;
@@ -243,6 +259,9 @@ input::placeholder{
     color: var(--color-primary);
 }
 @media(max-width:750px){
+    html{
+        font-size: 14px;
+    }
     .video-section{padding: 24px 16px;
     }
    h2.display-4{
