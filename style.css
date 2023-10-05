@@ -6,6 +6,7 @@
     --header-color:#586167;
     
 }
+
 p{
     color: var(--color-body);
 }
@@ -259,8 +260,8 @@ input::placeholder{
     color: var(--color-primary);
 }
 @media(max-width:750px){
-    html{
-        font-size: 14px;
+    body{
+        font-size: .7rem;
     }
     .video-section{padding: 24px 16px;
     }
